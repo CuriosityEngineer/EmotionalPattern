@@ -1,0 +1,9 @@
+.purple {
+	float:left;
+   width:0;
+   height: 0;
+	border-left: 20px solid fuchsia;
+	border-right: 20px solid darkviolet;
+	border-bottom: 20px solid mediumpurple;
+	border-top: 20px solid plum;
+}

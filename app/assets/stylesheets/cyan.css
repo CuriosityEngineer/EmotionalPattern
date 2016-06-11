@@ -1,0 +1,9 @@
+.cyan {
+	float:left;
+   width:0;
+   height: 0;
+	border-left: 20px solid cadetblue;
+	border-right: 20px solid cyan;
+	border-bottom: 20px solid darkcyan;
+	border-top: 20px solid lightcyan;
+}

@@ -1,0 +1,9 @@
+.yellow {
+	float:left;
+   width:0;
+   height: 0;
+	border-left: 20px solid yellow ;
+	border-right: 20px solid khaki;
+	border-bottom: 20px solid lightyellow;
+	border-top: 20px solid palegoldenrod;
+}

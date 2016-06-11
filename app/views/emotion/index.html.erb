@@ -1,6 +1,10 @@
-
-<h1>Emotions</h1>
-
-<% @emotions.each do |emotion| %>
-    <p><%= emotion.color %></p>
+<% for counter in 1..720 %>
+    <div class = "pink"></div>
 <% end %>
+
+<div class="input_field">
+   <%= form_for Emotion.new do |f| %>
+      <%= f.text_field :emotion, placeholder: "How do you feel today?" %>
+      <%= f.submit "Make my day!" %>
+   <% end %>
+</div>
