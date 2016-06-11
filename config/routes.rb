@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'emotion' => 'emotion#index'
+  resources :emotions, only: [:create, :show], controller: :emotion
 
   root 'emotion#index'
 
