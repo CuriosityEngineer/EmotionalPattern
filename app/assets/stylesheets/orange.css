@@ -1,0 +1,9 @@
+.orange {
+	float:left;
+   width:0;
+   height: 0;
+	border-left: 20px solid coral;
+	border-right: 20px solid darkorange;
+	border-bottom: 20px solid orange;
+	border-top: 20px solid orangered;
+}
