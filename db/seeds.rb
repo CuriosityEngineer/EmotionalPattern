@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Emotion.create({group_emotion:"AFFECTIONATE", emotion: "compassionate", color:"#8CFF8C"})
+Emotion.create({group_emotion:"ENGAGED", emotion:"alert", color:"#FFC48C"})
